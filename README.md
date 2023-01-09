@@ -12,7 +12,7 @@ Link [here](www.youtube.com)
 3. Upload the dataabse credentials acces in the file ...
 4. Upload the web files in the hosting
 ### Arduino   
-5. Mount the arduinos with the schemas
+5. Mount the arduinos with the schemas (Next point)
 6. Update the wifi credentials, and the web information
 7. Upload the files in to the arduino
 [That video maibe helps you to deploy the project]()
@@ -23,8 +23,8 @@ Link [here](www.youtube.com)
 
 ## Thanks
 Thanks to 
-@Rtrebla 44 to the developemnt of the arduinos
-@Uri to bla bla bla
+@RTrebla to the developemnt of the arduinos
+@Uriii14 to bla bla bla
 Thanks to electronoonbs, for the idea of the code who send the arduino information to the dabase 
 ## Other information
 
