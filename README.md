@@ -31,3 +31,15 @@ Thanks to:
 ## Other information
 - Finally a video to see how it works that project --> [video]()
 - Project of [electronoobs](https://electronoobs.com/eng_arduino_tut101.php)
+- Provably this project has some bugs that we don't have time to fix or not a good structure, if you have any suggest contact me. I leave this project finished. Thanks for read this.
+## Contact
+- Discord: !Bepe$#6207
+- Mail: bepescode@gmail.com
+
+
+
+
+
+
+
+**Bepes**
