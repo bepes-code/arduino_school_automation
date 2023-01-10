@@ -20,14 +20,14 @@ Link [here](www.youtube.com)
 [Door Case]()
 [Rele Case]()
 ## Web Design
-[Main Case]()
+[Login Page](https://cdn.discordapp.com/attachments/906984234525261865/1062303062837952522/Login_Page.png)
 [Door Case]()
 [Rele Case]()
 ## Thanks
 Thanks to:
 - [@RTrebla]() to the development of the Arduino schemas and 3d models.
 - [@Uriii14]() to help me with the Arduino communication and web design.
-- Thanks to [electronoobs](www.electronoobs.com ), for the idea of the code who send the Arduino information to the database and the foots of the project.
+- [@electronoobs](www.electronoobs.com ), for the idea of the code who send the Arduino information to the database and the foots of the project.
 ## Other information
 - Finally a video to see how it works that project --> [video]()
 - Project of [electronoobs](https://electronoobs.com/eng_arduino_tut101.php)
