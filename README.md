@@ -6,12 +6,12 @@ The project consist in 2 parts, the web, in which you can control the classes, a
 ## How to deploy the project
 Soon, YouTube video about how to deploy the project. 
 Link [here](www.youtube.com)
-### Web
+### Web (More information on the folder)
 1. Firstly, you need a domain and a hosting with the possibility to update 2 databases. You can find one free [here](https://es.000webhost.com/)
 2. Update the databases and the files
 3. Upload the database credentials access in the file ...
 4. Upload the web files in the hosting
-### Arduino   
+### Arduino (More information on the folder)  
 5. Mount the Arduino with the schemas (Next point)
 6. Update the Wi-Fi credentials, and the web information
 7. Upload the files in to the Arduino

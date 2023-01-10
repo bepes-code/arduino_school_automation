@@ -1,5 +1,5 @@
 ----------DATABASE SHORT GUIDE----------
-1. Database Schema:
+1. Database Schema on PHPMYADMIN:
    - school_automation
        - Users.sql
        - Clases.sql
