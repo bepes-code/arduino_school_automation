@@ -1,2 +1,2 @@
 ----------SCHEMAS SHORT GUIDE----------
-**More schemas images & photos**
+- **More schemas images & photos**
