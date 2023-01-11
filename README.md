@@ -16,9 +16,9 @@ Link [here](www.youtube.com)
 6. Update the Wi-Fi credentials, and the web information
 7. Upload the files in to the Arduino
 ## Arduino Schemas
-[Main Case](https://cdn.discordapp.com/attachments/906984234525261865/1062633222908948490/Captura_de_pantalla_2023-01-11_a_las_8.22.28.png)
-[Door Case](https://cdn.discordapp.com/attachments/906984234525261865/1062633221843591198/Captura_de_pantalla_2023-01-11_a_las_8.23.19.png)
-[Rele Case](https://cdn.discordapp.com/attachments/906984234525261865/1062633222602760243/Captura_de_pantalla_2023-01-11_a_las_8.22.49.png)
+![Main Case](https://cdn.discordapp.com/attachments/906984234525261865/1062633222908948490/Captura_de_pantalla_2023-01-11_a_las_8.22.28.png)
+![Door Case](https://cdn.discordapp.com/attachments/906984234525261865/1062633221843591198/Captura_de_pantalla_2023-01-11_a_las_8.23.19.png)
+![Rele Case](https://cdn.discordapp.com/attachments/906984234525261865/1062633222602760243/Captura_de_pantalla_2023-01-11_a_las_8.22.49.png)
 ## Web Design
 ![Login Page](https://cdn.discordapp.com/attachments/906984234525261865/1062303062837952522/Login_Page.png)
 [Door Case]()
