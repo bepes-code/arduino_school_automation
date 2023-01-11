@@ -1,6 +1,6 @@
 # School automation project with arduino
 ## Introduction
-This project starts at May 2022, when in Spain the 2n year students of "batxillerat" (the last grade before the university) had to make a TDR project (Research project), my tutor proposed me the idea of automating the classrooms of the institute to seek better efficiency. I and other 2 classmates accept that challenge, and we start working at this. And that's it, finally we can finish the project.
+This project starts at May 2022, when in Spain the 2n year students of "batxillerat" (the last grade before the university in Spain) had to make a TDR project (Research project), my tutor proposed me the idea of automating the classrooms of the institute to seek better efficiency. I and other 2 classmates accept that challenge, and we start working at this. And that's it, finally we can finish the project.
 ## About the project
 The project consist in 2 parts, the web, in which you can control the classes, and the Arduino, the microprocessor who control and obey the orders and petitions of the web. This project is based in the classes, and we utilize 3 Arduino, one of this, control de access in the class, with a fingerprint detector and an intelligent knob, the second one, connect the light of the class into the Arduino and send the information with Bluetooth to the main Arduino, who has the sensors of temperature, humidity, and presence, that last one also have an IR sensor who can open on close the devices of the class. With a Wi-Fi module send the information in a SQL database and then, on the web, we can read and modify that information.
 ## How to deploy the project
@@ -32,6 +32,8 @@ Thanks to:
 - Finally a video to see how it works that project --> [video]()
 - Project of [electronoobs](https://electronoobs.com/eng_arduino_tut101.php)
 - Provably this project has some bugs that we don't have time to fix or not a good structure, if you have any suggest contact me. I leave this project finished. Thanks for read this.
+## More information about the project.
+- The [document]() about the project in catalan
 ## Contact
 - Discord: !Bepe$#6207
 - Mail: bepescode@gmail.com
