@@ -1,0 +1,582 @@
+/*700px responisve*/
+/*General*/
+body{
+    background: #1C1C1C;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+/* Inici de Sessió */
+.caixa{
+    position: absolute;
+    left:50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background-color: #3A3A3A;
+    border-radius: 30px;
+    border: 2px solid #3AAFFE;
+}
+/* .caixa h1{
+    text-align: center;
+    padding: 0 0 20px 0;
+
+} */
+.caixa form{
+    padding: 0 0 30px 0;
+    box-sizing: border-box;
+}
+form .foto{
+    position: relative;
+    top: -50px;
+    left: 150px;
+    margin: 0;
+    padding: 0;
+}
+.foto img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    animation-duration: 10s;
+  animation-name: fotoo;
+    
+}
+@keyframes fotoo{
+    from{
+        transform: rotate(360deg) 
+    } 
+
+}
+form .usuari_div{
+    position: relative;
+margin: auto;
+    
+}
+/* .caixa usuari_div{
+
+
+} */
+.usuari_div h2{
+    text-align: left;
+    font-size: 12px;
+    color: white;
+    padding: 0;
+    padding-bottom: 10px;
+    margin-left: 30px;
+}
+.usuari_div input{
+    width: 80%;
+    padding: 0 2px;
+    height: 40px;
+    padding:  0 5px;
+    border: 1px solid #3AAFFE;
+    border-radius: 14px;
+    background: #E8E8E8;
+    outline: none;
+    font-size: 16px;
+}
+.button_login{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+/* .usuari_div a{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #3AAFFE;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: .5s;
+} */
+/* .caixa contrasenya_div{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0;
+} */
+form .contrasenya_div{
+padding-top: 20px;
+    position: relative;
+margin: auto;
+}
+.contrasenya_div h2{
+    text-align: left;
+    font-size: 12px;
+    color: white;
+    padding: 0;
+    padding-bottom: 10px;
+    margin-left: 30px;
+}
+.contrasenya_div input{
+    width: 80%;
+    padding: 0 2px;
+    height: 40px;
+    padding:  0 5px;
+    border: 1px solid #3AAFFE;
+    border-radius: 14px;
+    background: #E8E8E8;
+    outline: none;
+    font-size: 16px;
+    color: black;
+}
+.contrasenya_div label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #3AAFFE;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+}
+.usuari_div span::before{
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #3AAFFE;
+    transition: .5s;
+}
+.usuari_div input:focus ~ label,
+.usuari_div input:focus ~ label{
+    top:-5px;
+    color:#3AAFFE;
+}
+.usuari_div input:focus ~ span::before,
+.usuari_div input:focus ~ span::before{
+margin: -5px;
+}
+.botologin{
+    padding-top: 15px;
+    margin-bottom: 30px;
+}
+.alert alert-danger{
+    padding: 30px;
+}
+#cosetes_main{
+    color: blue;
+}
+
+input[type="submit"]{
+    width: 30%;
+    height: 35px;
+    border: 1px solid;
+    background: #3AAFFE;
+    border-radius: 20px;
+    font-size: 15px;
+    border-color: #3AAFFE;
+    color: white;
+    cursor: pointer;
+    outline: none;
+
+    margin: auto;
+}
+input[type="submit"]:hover{
+    border-color: black;
+    transition: .5s;
+}
+
+footer{
+position: absolute;
+left:50%;
+transform: translate(-50%, 150%);
+padding-bottom: 20px;
+}
+.logos img{
+    width: 50px;
+    height: 50px;
+    margin-top: 40px;
+    padding-left: 30px;
+}
+
+footer h1{
+text-align: center;
+color: white;
+font-size: 20px;
+}
+/* Pagina principal */
+/*Header*/
+header{
+    display: inline;
+}
+.esquerra{
+    float: left;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    display:flex ;
+}
+.esquerra a{
+    margin-left: 10px;
+    color: #3AAFFE;
+    font-size: 13px;
+}
+#header-insti{
+    height:30px;
+    width:30px;
+    border-radius: 100%;
+}
+
+.dreta{
+    float: right;
+    
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    display:flex ; 
+}
+.dreta a{
+    margin-left: 18px;
+    color: white;
+    font-size: 13px;
+    text-decoration: none;
+
+}
+.titols-a:hover{
+    border-bottom: 2px solid #88b2ff;
+    cursor: pointer;
+}
+
+.dreta button{
+
+   margin-left: 50px;
+   margin-right: 0;
+   padding-right: 0;
+   
+}
+.dropbtn {
+    background-image:url('../assets/marsi.png');
+    background-repeat:no-repeat;
+    background-color: none;
+    border: none;
+    border-radius: 100%;
+    padding: 0;
+    height:30px;
+    width:30px;
+    background-size: 50px 50px;
+    background-position:center;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  #foto-usuari{
+    height:60px;
+    width:70px;
+  }
+  /* .dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
+  } */
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #5F5E5C;
+    min-width: 130px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    right: 0;
+    z-index: 1;
+    border-radius: 15px;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 10px;
+  }
+  
+  .dropdown a:hover {color: #3AAFFE;}
+  
+  .show {display: block;}
+  header hr{
+    height:1px;
+    border-width:0;
+    color:#3AAFFE;
+    width: 100%;
+    background-color:#3AAFFE;
+  }
+/*Projecte ------------------------------------------------------------------------*/
+
+.projecte{
+ padding-bottom: 40px;
+}
+ .projecte h1{
+     color: #3AAFFE;
+     text-align: center;
+     
+ }
+#lorem{
+     text-align: center;
+     color: white;
+     margin: 50px;
+ }
+ .imatges{
+display: block;
+margin: 10px auto;
+text-align: center;
+ }
+.imatges img{
+    width: 400px;
+    height: 200px;
+    padding: 30px;
+}
+.integrants a{
+    text-align: center;
+    color:#3AAFFE;
+    
+}
+
+.persones{
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    padding: 50px;
+}
+.integrants img{
+    border-radius: 100%;
+    height: 60px;
+    width: 60px;
+}
+.persones a{
+    color: #3AAFFE;
+    text-decoration: none;
+  
+}
+.persones p{
+    color: white;
+}
+.aleix-rosinach{
+    justify-content: center;
+    align-items: center;
+    display:inline-block ;
+    padding: 20px;
+}
+.aleix-rosinach a{
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+}
+/*Estat dels Sensors ------------------------------------------------*/
+.menu-sensors{
+    text-align: center;
+    padding:30px;
+}
+.menu-sensors a{
+    padding: 30px;
+color: #3AAFFE;
+text-decoration: none;
+}
+.sensors h1{
+    color: #3AAFFE;
+    text-align: center;
+    font-size: 30px;
+}
+.sensors table {
+    color: white;
+   padding: 30px;
+   min-width: 50%;
+   margin: 0 auto;
+
+   
+}
+.sensors th{
+    padding: 10px;
+}
+.sensors button{
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: red
+}
+
+/*Contacte -------------------------------------*/
+.contacte{
+    background-color: #3AAFFE;
+    width: 400px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 50px;
+    
+}
+.contacte h1{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+    
+}
+.contacte-form{
+color: white;
+    position: relative;
+    border-radius: 12px;
+    width: auto;
+    margin: 0%;
+    margin: auto;
+}
+.contacte-form p{
+    text-align: center;
+    color: #1C1C1C;
+    font-size: 20px;
+}
+.contacte-form input[type=submit]{
+    resize: none;
+    text-align: center;
+
+}
+.contacte-form textarea{
+    resize: none;
+    width: 50%;
+
+}
+.contacte-from a,label,input,select,textarea{
+    display: flex;
+    margin: auto;
+    text-align: center;
+    color: #1C1C1C;
+}
+
+/* .contacte-from input, select, textarea{
+    width: 80%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: auto;
+} */
+#fname {
+    background-color: white;
+    color: white;
+    height: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+  }
+  .buttoncontacte{
+    padding: 20px
+  }
+  #button-contacte{
+    background-color: white;
+   color: black;
+   text-align: center;
+   margin: auto;
+   text-align: center;
+  }
+
+
+
+/*Informació ----------------------------------------------*/
+.menu-informacio{
+    text-align: center;
+    padding:30px;
+}
+.menu-informacio a{
+padding: 30px;
+color: #3AAFFE;
+text-decoration: none;
+}
+
+.informacio h1{
+    color: #3AAFFE;
+    text-align: center;
+    font-size: 30px;
+}
+.informacio table {
+    color: white;
+   padding: 30px;
+   min-width: 50%;
+   margin: 0 auto;
+
+   
+}
+.informacio th{
+    padding: 10px;
+    border: 1px solid #3AAFFE;
+}
+.informacio button{
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: red;
+
+}
+
+/*Control ----------------------------------------------*/
+
+
+
+
+.control h1{
+    color: #3AAFFE;
+    text-align: center;
+    font-size: 30px;
+}
+.menu-control{
+    text-align: center;
+    padding:30px;
+}
+.menu-control a{
+padding: 30px;
+color: #3AAFFE;
+text-decoration: none;
+}
+.control table,input {
+    color: white;
+   padding: 30px;
+   min-width: 50%;
+   margin: 0 auto;
+   border: 1px solid #ffff;
+
+   
+}
+.control th,input{
+    padding: 10px;
+    border: none;
+}
+.control i {
+    font-size: 30px;
+    text-align: center;
+}
+.control button, input{
+    border-radius: 9px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: red;
+    cursor: pointer;
+}
+.control1 table tr{
+    align-items: center;
+justify-content: center;
+}
+.control1 td{
+align-items: center;
+justify-content: center;
+}
+
+.informacio h1{
+    color: #3AAFFE;
+    text-align: center;
+    font-size: 30px;
+}
+.control table {
+    color: white;
+   padding: 30px;
+   min-width: 50%;
+   margin: 0 auto;
+
+   
+}
+.control td{
+    padding: 10px;
+    border: 1px solid #3AAFFE;
+}
