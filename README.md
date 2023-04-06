@@ -92,7 +92,7 @@ We would like to thank the following people and organizations for their support 
 
 ### Web Desgin
 [Login Page]()
-[Main Page](https://github.com/bepes-code/arduino_school_automation/blob/Master/Schemas%20%26%20Images/Main-page.png)
+[Main Page](https://github.com/bepes-code/arduino_school_automation/blob/Master/Schemas%20&%20Images/Main-page.png?raw=true)
 [Control Page]()
 [Information Page]()
 [Sensors Page]()
