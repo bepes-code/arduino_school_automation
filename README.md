@@ -93,7 +93,7 @@ We would like to thank the following people and organizations for their support 
 ### Web Desgin
 [Login Page](https://imgur.com/4vbCt9G)
 [Main Page](https://imgur.com/VUuxawG)
-[Control Page](https://imgur.com/UEXrRfT)
+[Control Page](https://i.imgur.com/UEXrRfT.png)
 [Information Page](https://imgur.com/JDNcDUM)
 [Sensors Page](https://imgur.com/gyB1VAU)
 
