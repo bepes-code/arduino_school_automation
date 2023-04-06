@@ -86,17 +86,21 @@ We would like to thank the following people and organizations for their support 
 
 ## Images
 ### Arduino Schemas
-[Main Case]()
-[Door Case]()
-[Reles Case]()
+[Main Case](https://imgur.com/s66XOd9)
+[Door Case](https://imgur.com/qeP3qnB)
+[Reles Case](https://imgur.com/9RJPrOv)
 
 ### Web Desgin
-[Login Page]()
-[Main Page](https://github.com/bepes-code/arduino_school_automation/blob/Master/Schemas%20&%20Images/Main-page.png?raw=true)
-[Control Page]()
-[Information Page]()
-[Sensors Page]()
-[Contact Page]()
+[Login Page](https://imgur.com/4vbCt9G)
+[Main Page](https://imgur.com/VUuxawG)
+[Control Page](https://imgur.com/UEXrRfT)
+[Information Page](https://imgur.com/JDNcDUM)
+[Sensors Page](https://imgur.com/gyB1VAU)
+
+## Database
+[Users Database](https://imgur.com/ZVt2A2Q)
+[Clases Database](https://imgur.com/6KT67yo)
+
 
 ## Other information
 - Finally a video to see how it works that project --> [video]()
