@@ -50,8 +50,8 @@ $sec = "60";
     </header>
     <!--Començem el php-->
     <?php
-$username = "solans"; 
-$password = "solans_2022"; 
+$username = ""; 
+$password = ""; 
 $database = "tdr_database_group"; 
 $mysqli = new mysqli("localhost", $username, $password, $database); 
 $query = "SELECT * FROM clases";

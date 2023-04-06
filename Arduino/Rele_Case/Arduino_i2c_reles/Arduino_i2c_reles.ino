@@ -1,3 +1,4 @@
+// Coden by Bepes
 ////////////// ARDUINO RELES /////////
   bool estat_llum_general = 0; // LLUM APP MOVIL
   bool estat_llum_rele = 0; // LLUM GENERAL

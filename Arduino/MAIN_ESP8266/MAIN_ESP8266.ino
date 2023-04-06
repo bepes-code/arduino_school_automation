@@ -1,4 +1,4 @@
- //Bepes copiright
+//Bepes copiright
 //Incluim les llibreries que farem servir
 #include <SoftwareSerial.h>
 #include <avr/power.h>

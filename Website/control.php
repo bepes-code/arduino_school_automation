@@ -54,8 +54,8 @@ $sec = "10";
 
 $page = $_SERVER['PHP_SELF'];
 $sec = "60";
-$username = "solans"; 
-$password = "solans_2022"; 
+$username = ""; 
+$password = ""; 
 $database = "tdr_database_group"; 
 $mysqli = new mysqli("localhost", $username, $password, $database); 
 $query = "SELECT * FROM clases";

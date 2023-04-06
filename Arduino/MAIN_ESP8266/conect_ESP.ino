@@ -4,7 +4,7 @@ boolean connect_ESP(){//returns 1 if successful or 0 if not
   Serial.println(F("CONNECTING"));
   //or 443 para HTTPS
   //enshare.000webhostapp.co
-  ESP8266.print("AT+CIPSTART=0,\"TCP\",\"ip\",81\r\n");//connect to your web server
+  ESP8266.print("AT+CIPSTART=0,\"TCP\",\"SERVERIP\",81\r\n");//connect to your web server
 
   
   //read_until_ESP(keyword,size of the keyword,timeout in ms, data save 0-no 1-yes 'more on this later') 

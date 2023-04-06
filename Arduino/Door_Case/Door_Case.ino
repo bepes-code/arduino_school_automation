@@ -1,3 +1,5 @@
+// Coden by albert some Bepes modyfies
+
 int temps = 3000; // temps en tancar la porta
 #define Green 3
 #define Red 2
