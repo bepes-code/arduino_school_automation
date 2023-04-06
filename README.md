@@ -98,10 +98,6 @@ We would like to thank the following people and organizations for their support 
 [Sensors Page]()
 [Contact Page]()
 
-
-
-
-
 ## Other information
 - Finally a video to see how it works that project --> [video]()
 - Project of [electronoobs](https://electronoobs.com/eng_arduino_tut101.php)
