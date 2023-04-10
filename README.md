@@ -1,7 +1,7 @@
 # Arduino School Automation
 
 ## Introduction
-This is a project to automate various aspects of a school using Arduino boards and sensors. The system can control lighting, climate, and access to different parts of the school. [Video](https://www.youtube.com/)
+This is a project to automate various aspects of a school using Arduino boards and sensors. The system can control lighting, climate, and access to different parts of the school. [Video](https://youtu.be/adDOBgjB-vQ)
 
 ## Some information
 This project starts at May 2022, when in Spain the 2n year students of "batxillerat" (the last grade before the university in Spain) had to make a TDR project (Research project), my tutor proposed me the idea of automating the classrooms of the institute to seek better efficiency. I and other 2 classmates accept that challenge, and we start working at this. And that's it, finally we can finish the project.
@@ -28,7 +28,7 @@ To develop this project you need:
 ### Main Case
 1. x1 Arduino Mega 
 2. x1 Humidity Sensor (DHT11)
-3. x1 Movment Sensor (PIR)
+3. x1 Motion Sensor (PIR)
 4. x1 Green LED
 5. x1 ESP-01
 6. x1 IR Sender
@@ -86,20 +86,20 @@ We would like to thank the following people and organizations for their support 
 
 ## Images
 ### Arduino Schemas
-[Main Case](https://imgur.com/s66XOd.png)
-[Door Case](https://imgur.com/qeP3qnB.png)
-[Reles Case](https://imgur.com/9RJPrOv.png)
+[Main Case](https://i.imgur.com/s66XOd9.png)
+[Door Case](https://i.imgur.com/qeP3qnB.png)
+[Reles Case](https://i.imgur.com/9RJPrOv.png)
 
 ### Web Desgin
-[Login Page](https://imgur.com/4vbCt9G.png)
-[Main Page](https://imgur.com/VUuxawG.png)
+[Login Page](https://i.imgur.com/4vbCt9G.png)
+[Main Page](https://i.imgur.com/gyB1VAU.png)
 [Control Page](https://i.imgur.com/7ZjwdWE.png)
-[Information Page](https://imgur.com/JDNcDUM.png)
-[Sensors Page](https://imgur.com/gyB1VAU.png)
+[Information Page](https://i.imgur.com/JDNcDUM.png)
+[Sensors Page](https://i.imgur.com/gyB1VAU.png)
 
 ## Database
-[Users Database](https://imgur.com/ZVt2A2Q.png)
-[Clases Database](https://imgur.com/6KT67yo.png)
+[Users Database](https://i.imgur.com/ZVt2A2Q.png)
+[Clases Database](https://i.imgur.com/6KT67yo.png)
 
 
 ## Other information
