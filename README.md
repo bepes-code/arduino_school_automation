@@ -86,20 +86,20 @@ We would like to thank the following people and organizations for their support 
 
 ## Images
 ### Arduino Schemas
-[Main Case](https://imgur.com/s66XOd9)
-[Door Case](https://imgur.com/qeP3qnB)
-[Reles Case](https://imgur.com/9RJPrOv)
+[Main Case](https://imgur.com/s66XOd.png)
+[Door Case](https://imgur.com/qeP3qnB.png)
+[Reles Case](https://imgur.com/9RJPrOv.png)
 
 ### Web Desgin
-[Login Page](https://imgur.com/4vbCt9G)
-[Main Page](https://imgur.com/VUuxawG)
-[Control Page](https://i.imgur.com/UEXrRfT.png)
-[Information Page](https://imgur.com/JDNcDUM)
-[Sensors Page](https://imgur.com/gyB1VAU)
+[Login Page](https://imgur.com/4vbCt9G.png)
+[Main Page](https://imgur.com/VUuxawG.png)
+[Control Page](https://i.imgur.com/7ZjwdWE.png)
+[Information Page](https://imgur.com/JDNcDUM.png)
+[Sensors Page](https://imgur.com/gyB1VAU.png)
 
 ## Database
-[Users Database](https://imgur.com/ZVt2A2Q)
-[Clases Database](https://imgur.com/6KT67yo)
+[Users Database](https://imgur.com/ZVt2A2Q.png)
+[Clases Database](https://imgur.com/6KT67yo.png)
 
 
 ## Other information
