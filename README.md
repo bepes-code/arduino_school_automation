@@ -34,14 +34,14 @@ To develop this project you need:
 6. x1 IR Sender
 
 ### Door Case
-1. x1 Arduino UNO
-2. x1 Digital premt Dtector
+1. x1 Arduino MEGA
+2. x1 Fingerprint Dtector
 3. x1 RFID Detector
 4. x1 ESP-01
 5. x1 Green LED
 6. x1 Red LED
 7. x1 Button
-8. Relé
+8. x1 Relé
 
 ### Reles Case
 1. x1 Arduino UNO
@@ -80,7 +80,7 @@ If you have any questions or comments about the project, please feel free to get
 
 We would like to thank the following people and organizations for their support and contribution to the project:
 
- [@RTrebla]() to the development of the Arduino schemas and 3d models.
+- [@RTrebla]() to the development of the Arduino schemas and 3d models.
 - [@Uriii14]() to help me with the Arduino communication and web design.
 - [@electronoobs](www.electronoobs.com ), for the idea of the code who send the Arduino information to the database and the foots of the project.
 

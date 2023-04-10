@@ -54,8 +54,8 @@ $sec = "10";
 
 $page = $_SERVER['PHP_SELF'];
 $sec = "60";
-$username = ""; 
-$password = ""; 
+$username = "root"; 
+$password = "root"; 
 $database = "tdr_database_group"; 
 $mysqli = new mysqli("localhost", $username, $password, $database); 
 $query = "SELECT * FROM clases";
@@ -64,12 +64,12 @@ $query = "SELECT * FROM clases";
 
 
 
-echo '<div class="control"> <table style="text-align:center; align-items: center; justify-content: center; border: 1px solid #ffff">
+echo '<div class="control"> <table style="text-align:center; justify-content: center;">
       <tr> 
-          <td> <font face="Arial">Aules</font> </td> 
-          <td> <font face="Arial">Llums</font> </td> 
-          <td> <font face="Arial">Ventiladors</font> </td> 
-          <td> <font face="Arial">Projector</font> </td> 
+          <td style="width: 200px;"> <font face="Arial">Aules</font> </td> 
+          <td style="width: 200px;"> <font face="Arial">Llums</font> </td> 
+          <td style="width: 200px;"> <font face="Arial">Ventiladors</font> </td> 
+          <td style="width: 200px;"> <font face="Arial">Projector</font> </td> 
       </tr></table></div>';
 
 if ($result = $mysqli->query($query)) {
@@ -85,19 +85,18 @@ if ($result = $mysqli->query($query)) {
         $llums = $row["LLUMS"];
         $ventiladors = $row["VENTILADORS"];
         $projector = $row["RELES"];
-        $albert = $row["CAIXA_PORTA"];
         $master = $row["Master"];
         
+
+
+
+
         if($llums == 1){
             $inv_current_bool_1 = 0;
+            $color_llums = "#6ed829";
         }else{
             $inv_current_bool_1 = 1;
-        }
-        if($albert == 1){
-          $color_llums = "#6ed829";
-
-        }else{
-          $color_llums = "#e04141";
+            $color_llums = "#e04141";
         }
         if($ventiladors == 1){
 
@@ -114,6 +113,7 @@ if ($result = $mysqli->query($query)) {
             $inv_current_bool_3 = 1;
             $color_projector = "#e04141";
         }
+
         //Botó master
         if($master == 1){
           $inv_current_bool_4= 0;
@@ -123,12 +123,17 @@ if ($result = $mysqli->query($query)) {
           $color_master = "#e04141";
         }
 
-        echo "<div class='control'><table style='text-align:center; justify-content: center;  align-items: center; border: 1px solid #ffff'><tr> 
-                  <td style='text-align:center; justify-content: center; border: 1px solid #ffff'>$aules</td> 
-                  <td style='text-align:center; justify-content: center; border: 1px solid #ffff'><form action= ./src/db/actualitzar-dades-control.php method= 'post'><input type='hidden' name='value2' value=$llums><input type='hidden' name='value' value=$inv_current_bool_1   >	<input type='hidden' name='unit' value=$unit_id ><input type='hidden' name='column' value=$column1 ><button type= 'submit' name= 'change_but' style='background-color: $color_llums'><i class='fa-solid fa-lightbulb'></i></button></form></td> 
-                  <td style='text-align:center; justify-content: center; border: 1px solid #ffff'><form action= ./src/db/actualitzar-dades-control.php method= 'post'><input type='hidden' name='value2' value=$ventiladors><input type='hidden' name='value' value=$inv_current_bool_2   >	<input type='hidden' name='unit' value=$unit_id ><input type='hidden' name='column' value=$column2 ><button type= 'submit' name= 'change_but' style='background-color: $color_ventiladors'><i class='fa-solid fa-fan'></button></form></td> 
-                  <td style='text-align:center; justify-content: center; border: 1px solid #ffff'><form action= ./src/db/actualitzar-dades-control.php method= 'post'><input type='hidden' name='value2' value=$projector><input type='hidden' name='value' value=$inv_current_bool_3   >	<input type='hidden' name='unit' value=$unit_id ><input type='hidden' name='column' value=$column3 ><button type= 'submit' name= 'change_but' style='background-color: $color_projector'><i class='fa-solid fa-person-chalkboard'></i></button></form></td> 
-                  </div> </tr></table>";
+
+
+
+
+        echo "<div class='control'><table style='text-align:center; justify-content: center; '><tr> 
+                  <td style='text-align:center; width: 200px; justify-content: center; '>$aules</td> 
+                  <td style='text-align:center; width: 200px; justify-content: center;'><form action= ./src/db/actualitzar-dades-control.php method= 'post'><input type='hidden' name='value2' value=$llums><input type='hidden' name='value' value=$inv_current_bool_1   >	<input type='hidden' name='unit' value=$unit_id ><input type='hidden' name='column' value=$column1 ><button type= 'submit' name= 'change_but' style='background-color: $color_llums'><i class='fa-solid fa-lightbulb'></i></button></form></td> 
+                  <td style='text-align:center; width: 200px; justify-content: center;'><form action= ./src/db/actualitzar-dades-control.php method= 'post'><input type='hidden' name='value2' value=$ventiladors><input type='hidden' name='value' value=$inv_current_bool_2   >	<input type='hidden' name='unit' value=$unit_id ><input type='hidden' name='column' value=$column2 ><button type= 'submit' name= 'change_but' style='background-color: $color_ventiladors'><i class='fa-solid fa-fan'></button></form></td> 
+                  <td style='text-align:center; width: 200px;  justify-content: center;'><form action= ./src/db/actualitzar-dades-control.php method= 'post'><input type='hidden' name='value2' value=$projector><input type='hidden' name='value' value=$inv_current_bool_3   >	<input type='hidden' name='unit' value=$unit_id ><input type='hidden' name='column' value=$column3 ><button type= 'submit' name= 'change_but' style='background-color: $color_projector'><i class='fa-solid fa-person-chalkboard'></i></button></form></td> 
+                  </div> 
+                  </tr></table>";
     }
     $result->free();
 }
@@ -146,6 +151,7 @@ if ($result = $mysqli->query($query)) {
 
 ?>
   </div>
+  
   <footer>
     <h1>Institut Josep Vallverdú</h1>
     <div class="logos">
