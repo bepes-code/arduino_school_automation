@@ -108,7 +108,7 @@ We would like to thank the following people and organizations for their support 
 - Provably this project has some bugs that we don't have time to fix or not a good structure, if you have any suggest contact me. I leave this project finished. Thanks for read this.
 
 ## More information about the project.
-- The [document]() about the project in **catalan** (maybe in a few time in english)
+- The [document](https://github.com/bepes-code/arduino_school_automation/blob/Master/Extra/Tdr%20per%20a%20github.pdf) about the project in **catalan** (maybe in a few time in english)
 
 **<3**
 
