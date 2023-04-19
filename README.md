@@ -73,8 +73,8 @@ If you have any questions or comments about the project, please feel free to get
 
 ## Contributors
 
-- Albert Farre 
-- Oriol Armengol
+- RTREBLA
+- Uriii
 
 ## Acknowledgments
 
