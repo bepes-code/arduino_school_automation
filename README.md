@@ -80,8 +80,6 @@ If you have any questions or comments about the project, please feel free to get
 
 We would like to thank the following people and organizations for their support and contribution to the project:
 
-- [@RTrebla]() to the development of the Arduino schemas and 3d models.
-- [@Uriii14]() to help me with the Arduino communication and web design.
 - [@electronoobs](www.electronoobs.com ), for the idea of the code who send the Arduino information to the database and the foots of the project.
 
 ## Images
